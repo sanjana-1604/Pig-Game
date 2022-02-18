@@ -65,7 +65,7 @@ const holdScore = function()
         FinalScore[activePlayer] += CurrentScore;             
         document.getElementById(`score--${activePlayer}`).textContent = FinalScore[activePlayer];
 
-        if(FinalScore[activePlayer] >= 10)
+        if(FinalScore[activePlayer] >= 100)
         {
             diceEl.classList.add("hidden");
             document.querySelector(`.player--${activePlayer}`).classList.add("player--winner");
