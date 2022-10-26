@@ -15,7 +15,8 @@ The first player to score 100 or more points wins.
 N/A
 
 ## Usage
-
+![landing page](screen_shots/Screen1.png)
+![FLow_chart](screen_shots/pig-game-flowchart.png)
 
 
 ## Credits
