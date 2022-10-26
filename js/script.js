@@ -46,7 +46,7 @@ const rollDice = function()
     {
         diceEl.classList.remove("hidden");        
         const diceNumber = Math.trunc(Math.random()*6) +1;
-        diceEl.src = `dice-${diceNumber}.png`;   
+        diceEl.src = `./image/dice-${diceNumber}.png`;   
         if(diceNumber == 1)
         {        
             switchPlayer();     
